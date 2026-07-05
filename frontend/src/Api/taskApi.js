@@ -1,4 +1,4 @@
-const API = "http://127.0.0.1:5000/tasks";
+const API = "/tasks";
 
 export async function getTasks() {
     const response = await fetch(API);

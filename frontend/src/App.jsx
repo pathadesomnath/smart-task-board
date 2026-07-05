@@ -1,18 +1,18 @@
 // Imports
 import { useEffect, useState } from "react";
-import Header from "./components/Header";
-import AddTask from "./components/AddTask";
-import SearchBar from "./components/SearchBar";
-import FilterBar from "./components/FilterBar";
-import ProgressBar from "./components/ProgressBar";
-import TaskCard from "./components/TaskCard";
+import Header from "./Components/Header";
+import AddTask from "./Components/AddTask";
+import SearchBar from "./Components/SearchBar";
+import FilterBar from "./Components/FilterBar";
+import ProgressBar from "./Components/ProgressBar";
+import TaskCard from "./Components/TaskCard";
 
 import {
   getTasks,
   addTask,
   toggleTask,
   deleteTask,
-} from "./api/taskApi";
+} from "./Api/taskApi";
 
 function App() {
   const [tasks, setTasks] = useState([]);
